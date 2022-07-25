@@ -1,0 +1,43 @@
+.edit{
+    margin-top: 70px;
+    border-radius: 10px;
+    width:300px;
+    height:50px;
+    flex-direction: column;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    align-content: flex-end;
+    margin-left: 250px;
+
+}
+
+.save{
+    /* float: right; */
+    margin-top: 60px;
+}
+
+.container-add{
+    padding:30px 50px;
+    border-radius: 15px;
+    width: 45%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #3eff5e;
+    margin-bottom: 50px;
+}
+.author{
+    margin: 20px 0;
+}
+@media only screen and (max-width: 1023px) {
+    .container-add{
+        padding:25px 40px;
+        width: 60%;
+    }
+    
+}
+@media only screen and (max-width: 425px) {
+    .container-add{
+        width: 90%;
+    }
+}

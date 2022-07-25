@@ -1,0 +1,33 @@
+.cartpost{
+    width:26%;
+    margin-right: 11%;
+    padding:10px;
+    border-radius: 25px 25px 0 0;
+    margin-top: 35px; 
+    box-shadow: -9px 4px 4px 4px #3eff5e;
+
+}
+
+.cartpost:nth-child(3n){
+    margin-right: 0;
+}
+.cartpost .content{
+margin: 15px 0 20px 0
+}
+
+.cartpost .actions{
+    margin: 20px 0 10px 0;
+}
+
+@media only screen and (max-width: 1023px) {
+    .cartpost{
+        width:70%;
+        margin: 20px auto;
+    }
+    
+}
+@media only screen and (max-width: 425px) {
+    .cartpost{
+        width:80%;
+    }
+}
