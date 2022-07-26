@@ -18,7 +18,7 @@ This command will read the package.json file and install all the required depend
 To run the Frontend  part:
 
 ```cli
-npm start
+npm  run start
 ```
 
 To run the Backtend  part:
